@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Style1.css" />
+  </head>
+  <body>
+    <form action="" id="Contact-form">
+      <table>
+        <h2>CONTACT-FORM</h2>
+        <img
+          src="../Practical/Image/Contact_image_main.webp"
+          class="form-img"
+          alt=""
+          height="70px"
+          width="60px"
+        />
+        <tr>
+          <td><label for="name">FullName</label></td>
+          <td>
+            <input
+              class="input-field"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Full Name"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td>
+            <input
+              class="input-field"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="mono">Mobile No</label></td>
+          <td>
+            <input
+              class="input-field"
+              type="text"
+              name="mono"
+              id="mono"
+              placeholder="Enter Your Mobile Number"
+              required
+              pattern="[0-9]{10}"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Gender</label></td>
+          <td colspan="3">
+            <input
+              type="radio"
+              name="gender"
+              id="male"
+              value="male"
+              class="input-field"
+            />
+            <label for="male">Male</label>
+
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+              class="input-field"
+            />
+            <label for="female">Female</label>
+
+            <input
+              type="radio"
+              name="gender"
+              id="other"
+              value="other"
+              class="input-field"
+            />
+            <label for="other">Other</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td>
+            <textarea
+              class="input-field"
+              name="address"
+              id="address"
+              rows="3"
+              cols="25"
+              minlength="10"
+              maxlength="500"
+              placeholder="Enter your full address"
+              required
+            ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" class="btn" id="btn" value="Submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

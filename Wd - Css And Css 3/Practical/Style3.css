@@ -1,0 +1,85 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+.container 
+{
+    display: flex;
+    flex-direction: column;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(168, 50, 50);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+nav , ul
+{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(138, 138, 66);
+}
+ 
+li
+{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: grey;
+}
+li:hover
+{
+    border: 2px solid white ;
+    margin: 10px;
+    background-color: rgb(rgb(150, 41, 11));
+    color: white;
+}
+.main
+{
+    display: flex;
+    background-color: rgb(56, 150, 95);
+}
+.section
+{
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: rgb(54, 117, 110);
+}
+marquee
+{
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(155, 207, 202);
+
+}
+h3
+{
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(113, 153, 119) ;
+    text-align: center;
+    padding: 15px;
+}
+footer
+{
+  background-color: rgb(6, 6, 6);
+  color: rgb(246, 244, 244);
+  text-align: center;
+  padding: 30px;
+}

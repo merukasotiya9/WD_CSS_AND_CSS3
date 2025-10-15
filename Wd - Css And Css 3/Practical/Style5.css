@@ -1,0 +1,79 @@
+.container {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.navbar,
+a,
+h1 {
+  background-color: black;
+  display: inline-block;
+  list-style: none;
+}
+a {
+  margin-left: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+h1 {
+  color: yellow;
+}
+a:hover {
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.section1 {
+  text-align: justify;
+  background-color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px;
+  color: white;
+  border-right: 2px dotted black;
+}
+.section {
+  text-align: justify;
+  background-color: gray;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px;
+  border-right: 2px dotted black;
+}
+footer {
+  margin-bottom: 100px;
+  background-color: rgb(6, 6, 6);
+  color: rgb(246, 244, 244);
+  text-align: center;
+  padding: 10px;
+}
+h3,
+h4 {
+  text-align: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+}
+@media only screen and (max-width: 700px) {
+  .section , .section1
+  {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 117, 110);
+    flex-wrap: wrap;
+  }
+  .navbar , a , h1 
+  {
+    background-color: green;
+  }
+  footer 
+  {
+    display: flex;
+    background-color: steelblue;
+    color: white;
+    width: 100%;
+  }
+}

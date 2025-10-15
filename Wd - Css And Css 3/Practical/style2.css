@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(25, 99, 145, 0.4);
+}
+.profile-card {
+  border: 2px double black;
+  height: 390px;
+  width: 440px;
+  margin: 100px auto;
+  background-color: rgba(45, 146, 147, 0.22);
+}
+.name {
+  text-align: center;
+  display: inline-block;
+  margin-left: 140px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.bio {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+.btn-follow {
+  margin-left: 190px;
+  margin-top: 30px;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+#btn:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+img {
+  margin-left: 170px;
+  margin-top: 20PX;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.name:hover
+{
+    background-color: tan;
+    color: white;
+}
